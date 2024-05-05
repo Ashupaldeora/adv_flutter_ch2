@@ -6,11 +6,37 @@ class DatePickerAndroid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color(0xffF0F2E9),
       appBar: AppBar(
-        title: Text("Date Picker"),
+        toolbarHeight: 80,
+        backgroundColor: Color(0xffF0F2E9),
+        centerTitle: true,
+        title: Text(
+          "Date Picker",
+          style: TextStyle(color: Colors.black),
+        ),
       ),
-      body: Center(),
+      body: Center(
+        child: TextButton(
+          onPressed: () {
+            showDatePicker(
+                context: context,
+                firstDate: DateTime(1924),
+                lastDate: DateTime(2025),
+                initialDate: DateTime.now());
+          },
+          child: Text(
+            "Pick Date",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 23,
+              decoration: TextDecoration.underline,
+              decorationStyle: TextDecorationStyle.solid,
+              decorationColor: Colors.black,
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

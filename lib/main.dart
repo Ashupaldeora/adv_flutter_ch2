@@ -12,6 +12,22 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+              datePickerTheme: DatePickerThemeData(
+                  backgroundColor: Color(0xffE5FBDA),
+                  dayForegroundColor: MaterialStateProperty.all(Colors.black),
+                  yearForegroundColor: MaterialStateProperty.all(Colors.white),
+                  todayBorder: BorderSide(
+                    color: Color(0xff396927),
+                  ),
+                  yearStyle: TextStyle(color: Colors.black),
+                  weekdayStyle: TextStyle(color: Color(0xff396927))))
+          .copyWith(
+        colorScheme: ColorScheme.fromSwatch(
+          brightness: Brightness.light,
+          primarySwatch: Colors.lightGreen,
+        ),
+      ),
       initialRoute: '/datePickerAndroid',
       routes: {'/datePickerAndroid': (context) => DatePickerAndroid()},
     );
