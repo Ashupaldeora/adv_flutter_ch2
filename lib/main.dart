@@ -1,4 +1,5 @@
 import 'package:adv_flutter_ch2/screens/date_picker/android/view/date_picker_screen.dart';
+import 'package:adv_flutter_ch2/screens/time_picker/android/view/time_picker.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,15 +22,21 @@ class MyApp extends StatelessWidget {
                     color: Color(0xff396927),
                   ),
                   yearStyle: TextStyle(color: Colors.black),
-                  weekdayStyle: TextStyle(color: Color(0xff396927))))
+                  weekdayStyle: TextStyle(color: Color(0xff396927))),
+              timePickerTheme: TimePickerThemeData(
+                  dialHandColor: Color(0xff5f9e45),
+                  dayPeriodColor: Colors.lightBlue.withOpacity(0.5)))
           .copyWith(
         colorScheme: ColorScheme.fromSwatch(
           brightness: Brightness.light,
           primarySwatch: Colors.lightGreen,
         ),
       ),
-      initialRoute: '/datePickerAndroid',
-      routes: {'/datePickerAndroid': (context) => DatePickerAndroid()},
+      initialRoute: '/timePickerAndroid',
+      routes: {
+        '/datePickerAndroid': (context) => DatePickerAndroid(),
+        '/timePickerAndroid': (context) => TimePickerAndroid()
+      },
     );
   }
 }
