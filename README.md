@@ -59,6 +59,18 @@ The TimePicker widget in Flutter allows users to select a time from a clock-like
 <h3 align="center"><i>1. Dialog Box Android</i></h3>
 <h1></h1>
 
+## Dialog Box 
+
+A dialog box is a secondary window that appears in front of the main application window to provide information, ask for user input, or display a message that requires the user's attention. Dialog boxes are typically used for modal interactions, meaning that the user must interact with the dialog box before they can continue using the main application.
+## Features:
+* Title: A brief description of the purpose of the dialog box.
+* Message: The main content of the dialog box. This can include text, images, or other UI elements.
+* Buttons: Buttons allow the user to interact with the dialog box. Common buttons include "OK", "Cancel", "Yes", and "No".
+* Text Fields: Text fields allow the user to enter text input. This is useful for collecting information from the user, such as their name or email address.
+
+
+
+
 <div align="center">
   <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/ede82873-df45-4f9c-a204-072519f54da2" height=500px hspace=20>
   <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/170a13f3-0ee7-4fe1-8c91-544520c0af54" height=500px hspace=20>
@@ -75,8 +87,20 @@ The TimePicker widget in Flutter allows users to select a time from a clock-like
 <h3 align="center"><i>1. Date Picker Ios</i></h3>
 <h1></h1>
 
+## Cupertino Date Picker 
+
+The CupertinoDatePicker widget in Flutter provides a date picker in the style of Apple's iOS operating system. It allows users to select a date by rotating a wheel-based interface.
+## Key Features:
+* Date Selection: Users can rotate the wheel to select the desired date.
+* Date Range Selection: You can enable date range selection by setting the minimumDate and maximumDate properties.
+* Input Mode: Users can switch to an input mode where they can manually enter a date using the keyboard.
+* Customization: You can customize the appearance of the date picker using the CupertinoDatePickerMode and CupertinoDatePickerStyle classes
+
+
+
+
 <div align="center">
-  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/944bade7-8b3e-40ae-9cf3-68830408f3cc" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/862d8ae9-9f7a-4904-bc7f-abdfcb53dd84" height=500px hspace=20>
  
   
 </div>
@@ -91,8 +115,21 @@ The TimePicker widget in Flutter allows users to select a time from a clock-like
 <h3 align="center"><i>1. Time Picker Ios</i></h3>
 <h1></h1>
 
+## Cupertino Time Picker 
+
+The CupertinoTimerPicker widget in Flutter provides a time picker in the style of Apple's iOS operating system. It allows users to select a time by rotating a wheel-based interface.
+## Key Features:
+* Time Selection: Users can rotate the wheels to select the desired hour, minute, and (optionally) second values.
+* 24-Hour Format: You can toggle between 12-hour and 24-hour formats using the mode property.
+* Input Mode: Users can switch to an input mode where they can manually enter a time using the keyboard.
+* Customization: You can customize the appearance of the time picker using the CupertinoTimerPickerMode and CupertinoTimerPickerStyle classes.
+
+
+
+
+
 <div align="center">
-  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/5c6acf9a-4942-4a8d-b434-6030dc7d725f" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/42877009-f734-4158-9063-aae773c3d7c3" height=500px hspace=20>
   <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/41490248-10e2-4d38-9e8d-ce3d04e35a00" height=500px hspace=20>
   
 </div>
@@ -106,8 +143,21 @@ The TimePicker widget in Flutter allows users to select a time from a clock-like
 <h3 align="center"><i>1. Action Sheet Ios</i></h3>
 <h1></h1>
 
+## Cupertino Action Sheet 
+
+The CupertinoActionSheet widget in Flutter provides an action sheet in the style of Apple's iOS operating system. It displays a list of options at the bottom of the screen, allowing users to choose an action.
+## Key Features:
+* Options: You can specify a list of options to display in the action sheet.
+* Destructive Actions: You can mark certain options as destructive, which will change their appearance and behavior.
+* Cancel Button: The action sheet automatically includes a cancel button.
+* Customization: You can customize the appearance of the action sheet using the CupertinoActionSheetStyle class
+
+
+
+
+
 <div align="center">
-  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/053a9c56-083a-40ba-9ca9-62b43e033679" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/fa6ce0a5-bb2d-4496-9399-852c03954c82" height=500px hspace=20>
   
   
 </div>
