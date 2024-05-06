@@ -56,3 +56,70 @@ The TimePicker widget in Flutter allows users to select a time from a clock-like
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/blob/master/lib/screens/time_picker/android/view/time_picker.dart">-> See The Code <-</a>
 </div>
 
+<h3 align="center"><i>1. Dialog Box Android</i></h3>
+<h1></h1>
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/ede82873-df45-4f9c-a204-072519f54da2" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/170a13f3-0ee7-4fe1-8c91-544520c0af54" height=500px hspace=20>
+  
+</div>
+
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/dialog_box/android">-> See The Code <-</a>
+</div>
+
+
+<h3 align="center"><i>1. Date Picker Ios</i></h3>
+<h1></h1>
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/944bade7-8b3e-40ae-9cf3-68830408f3cc" height=500px hspace=20>
+ 
+  
+</div>
+
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/date_picker/ios/view">-> See The Code <-</a>
+</div>
+
+
+<h3 align="center"><i>1. Time Picker Ios</i></h3>
+<h1></h1>
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/5c6acf9a-4942-4a8d-b434-6030dc7d725f" height=500px hspace=20>
+  <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/41490248-10e2-4d38-9e8d-ce3d04e35a00" height=500px hspace=20>
+  
+</div>
+
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/time_picker/ios">-> See The Code <-</a>
+</div>
+
+<h3 align="center"><i>1. Action Sheet Ios</i></h3>
+<h1></h1>
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/053a9c56-083a-40ba-9ca9-62b43e033679" height=500px hspace=20>
+  
+  
+</div>
+
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/dialog_box/ios/view">-> See The Code <-</a>
+</div>
+
+
+
+
+
+
