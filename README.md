@@ -24,11 +24,13 @@ The DatePicker widget in Flutter allows users to select a date from a calendar-l
 </div>
 
 
+
 ###
 <div align="center">
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/blob/master/lib/screens/date_picker/android/view/date_picker_screen.dart">-> See The Code <-</a>
 </div>
-
+<h1></h1>
+  
 ###
 ###
 
@@ -55,7 +57,7 @@ The TimePicker widget in Flutter allows users to select a time from a clock-like
 <div align="center">
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/blob/master/lib/screens/time_picker/android/view/time_picker.dart">-> See The Code <-</a>
 </div>
-
+<h1></h1>
 <h3 align="center"><i>1. Dialog Box Android</i></h3>
 <h1></h1>
 
@@ -82,7 +84,7 @@ A dialog box is a secondary window that appears in front of the main application
 <div align="center">
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/dialog_box/android">-> See The Code <-</a>
 </div>
-
+<h1></h1>
 
 <h3 align="center"><i>1. Date Picker Ios</i></h3>
 <h1></h1>
@@ -111,7 +113,7 @@ The CupertinoDatePicker widget in Flutter provides a date picker in the style of
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/date_picker/ios/view">-> See The Code <-</a>
 </div>
 
-
+<h1></h1>
 <h3 align="center"><i>1. Time Picker Ios</i></h3>
 <h1></h1>
 
@@ -139,7 +141,7 @@ The CupertinoTimerPicker widget in Flutter provides a time picker in the style o
 <div align="center">
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/time_picker/ios">-> See The Code <-</a>
 </div>
-
+<h1></h1>
 <h3 align="center"><i>1. Action Sheet Ios</i></h3>
 <h1></h1>
 
@@ -167,7 +169,7 @@ The CupertinoActionSheet widget in Flutter provides an action sheet in the style
 <div align="center">
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/dialog_box/ios/view">-> See The Code <-</a>
 </div>
-
+<h1></h1>
 
 
 
