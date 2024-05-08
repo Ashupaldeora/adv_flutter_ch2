@@ -1,4 +1,4 @@
-# adv_flutter_ch2
+
 
 A new Flutter project.
 
@@ -170,6 +170,34 @@ The CupertinoActionSheet widget in Flutter provides an action sheet in the style
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/dialog_box/ios/view">-> See The Code <-</a>
 </div>
 <h1></h1>
+
+
+<h1></h1>
+<h3 align="center"><i>2. Material-Cupertino Widgets</i></h3>
+<h1></h1>
+
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/5e3514a3-3543-4226-a276-ea64cc02e120" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/97a73713-bebb-46fd-b01d-8c60997b1b58" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/bb3424a8-efd9-4ae4-b649-28c8a5a79447" height=500px hspace=20>
+  
+</div>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/25cf0da2-08b6-4d89-bc32-147c8a50d31b" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/f721b06b-344a-4c43-bab0-03302a303621" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/1bc1b0dd-68e1-48df-9c20-82af061ad3b6" height=500px hspace=20>
+  
+</div>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/1029f24c-6e46-4e53-a730-2ea2ba99a0d3" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/ab3c0b5f-e631-4559-9e7c-32d8c409f0ed" height=500px hspace=20>
+
+  <video src=" https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/65d2356e-7c7c-464e-81ef-e65a9511a780"></video>
+</div>
+
+
+
 
 
 
