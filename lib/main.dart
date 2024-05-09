@@ -1,5 +1,6 @@
 import 'package:adv_flutter_ch2/screens/cupertino_slivers/cupertino_custom_scroll.dart';
 import 'package:adv_flutter_ch2/screens/cupertino_slivers/cupertino_list_section.dart';
+import 'package:adv_flutter_ch2/screens/cupertino_slivers/settings_screen.dart';
 import 'package:adv_flutter_ch2/screens/date_picker/android/view/date_picker_screen.dart';
 import 'package:adv_flutter_ch2/screens/date_picker/ios/view/date_picker_ios.dart';
 import 'package:adv_flutter_ch2/screens/dialog_box/android/providers/android_dialog_provider.dart';
@@ -82,10 +83,11 @@ class MyApp2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/listSection',
+      initialRoute: '/settings',
       routes: {
         '/': (context) => CustomScroll(),
         '/listSection': (p0) => CupertinoListSectionExample(),
+        '/settings': (p0) => Settings(),
       },
     );
   }
