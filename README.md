@@ -188,14 +188,21 @@ Cupertino widgets are a set of widgets that are designed to follow the design gu
 
 
 <div align="center">
+  
   <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/5e3514a3-3543-4226-a276-ea64cc02e120" height=500px hspace=20>
   <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/97a73713-bebb-46fd-b01d-8c60997b1b58" height=500px hspace=20>
-  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/bb3424a8-efd9-4ae4-b649-28c8a5a79447" height=500px hspace=20>
+  
   
 </div>
 <div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/bb3424a8-efd9-4ae4-b649-28c8a5a79447" height=500px hspace=20>
   <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/25cf0da2-08b6-4d89-bc32-147c8a50d31b" height=500px hspace=20>
-  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/f721b06b-344a-4c43-bab0-03302a303621" height=500px hspace=20>
+ 
+  
+  
+</div>
+<div align="center">
+   <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/f721b06b-344a-4c43-bab0-03302a303621" height=500px hspace=20>
   <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/1bc1b0dd-68e1-48df-9c20-82af061ad3b6" height=500px hspace=20>
   
 </div>
@@ -245,6 +252,38 @@ class MyHomePage extends StatelessWidget {
 <div align="center">
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/material_cupertino_widgets">-> See The Code <-</a>
 </div>
+
+
+<h1></h1>
+<h3 align="center"><i>3. Cupertino Slivers</i></h3>
+<h1></h1>
+
+
+# CupertinoSliverNavigationBar: 
+iOS-style navigation bar for CupertinoSliverAppBar or CustomScrollView.
+# Features:
+* large title, small title, leading/trailing widgets, background color, border.
+# CupertinoListTile:
+* iOS-style list tile for CupertinoListView or standalone use.
+# Features:
+* leading/trailing widgets, title, subtitle, background color, accessory view.
+
+
+
+<div align="center">
+  
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/f7841b61-7a86-4a5f-a532-94d34aad2b2a" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/1d6590a1-570d-49b9-995e-f73b456ad9af" height=500px hspace=20>
+  
+  
+</div>
+<div align="center">
+  
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/4670f995-9547-42b0-b679-d4ec30858c48" height=500px hspace=20>
+ <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/bdeb4b52-f163-4f2d-95fc-e83b7b230cbc" ></video>
+</div>
+
+
 
 
 
