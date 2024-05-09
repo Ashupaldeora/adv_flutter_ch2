@@ -1,4 +1,4 @@
-# adv_flutter_ch2
+
 
 A new Flutter project.
 
@@ -170,6 +170,83 @@ The CupertinoActionSheet widget in Flutter provides an action sheet in the style
 <a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/dialog_box/ios/view">-> See The Code <-</a>
 </div>
 <h1></h1>
+
+
+<h1></h1>
+<h3 align="center"><i>2. Material-Cupertino Widgets</i></h3>
+<h1></h1>
+
+# Material Widgets:
+Material widgets are the default widgets provided by the Flutter framework. They are designed to follow the Material Design guidelines, which are a set of design principles developed by Google. Material widgets are typically used to create apps that have a modern, clean, and intuitive user interface.
+
+# Cupertino Widgets:
+Cupertino widgets are a set of widgets that are designed to follow the design guidelines of Apple's iOS operating system. They are typically used to create apps that have a more native look and feel on iOS devices.
+
+
+
+
+
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/5e3514a3-3543-4226-a276-ea64cc02e120" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/97a73713-bebb-46fd-b01d-8c60997b1b58" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/bb3424a8-efd9-4ae4-b649-28c8a5a79447" height=500px hspace=20>
+  
+</div>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/25cf0da2-08b6-4d89-bc32-147c8a50d31b" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/f721b06b-344a-4c43-bab0-03302a303621" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/1bc1b0dd-68e1-48df-9c20-82af061ad3b6" height=500px hspace=20>
+  
+</div>
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/1029f24c-6e46-4e53-a730-2ea2ba99a0d3" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/ab3c0b5f-e631-4559-9e7c-32d8c409f0ed" height=500px hspace=20>
+</div>
+
+ 
+# Platform Class
+A platform class in Flutter is a special type of class that lets you access features and functionality that are specific to the device or operating system that your app is running on. For example, you can use platform classes to access the device's camera, read and write files, or make network requests.
+# Features of Platform Classes:
+* Access to platform-specific functionality: Platform classes give you access to features and functionality that are not available in the Flutter framework itself.
+* Native code integration: Platform classes are implemented using native code, which means that they can access the underlying operating system and hardware.
+* Cross-platform support: Platform classes are available on all platforms that Flutter supports, including Android, iOS, Windows, macOS, and Linux.
+
+```dart
+import 'package:flutter/material.dart';
+import 'dart:io';
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Platform.isAndroid
+          ? Column(
+              children: [
+                // Android layout
+              ],
+            )
+          : Row(
+              children: [
+                // iOS layout
+              ],
+            ),
+    );
+  }
+}
+```
+  
+<div align="center">
+ <video src="https://github-production-user-asset-6210df.s3.amazonaws.com/143180848/328776775-65d2356e-7c7c-464e-81ef-e65a9511a780.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240508%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240508T063223Z&X-Amz-Expires=300&X-Amz-Signature=bd8600236373eb9e6c6e526cdab3dce3d9cd331af0c3836374108a4d271d4ecc&X-Amz-SignedHeaders=host&actor_id=143180848&key_id=0&repo_id=796287980"></video> 
+</div>
+
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/material_cupertino_widgets">-> See The Code <-</a>
+</div>
+
+
 
 
 
