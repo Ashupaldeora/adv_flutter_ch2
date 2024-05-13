@@ -283,6 +283,24 @@ iOS-style navigation bar for CupertinoSliverAppBar or CustomScrollView.
  <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/bdeb4b52-f163-4f2d-95fc-e83b7b230cbc" ></video>
 </div>
 
+<h1></h1>
+<h3 align="center"><i>4. CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl</i></h3>
+<h1></h1>
+
+<div align="center">
+  
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/071cfb64-79a6-4627-b33c-6d2bfb8310ae" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/5721e1dc-6e8b-462e-9a9b-5a528220b1cd" height=500px hspace=20>
+  
+  
+</div>
+<div align="center">
+  
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/8b2399d3-725d-4353-b7af-bc063fe0ed6e" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/c906b5cb-894e-474d-8744-fcf57cd0034a" height=500px hspace=20>
+  
+  
+</div>
 
 
 
