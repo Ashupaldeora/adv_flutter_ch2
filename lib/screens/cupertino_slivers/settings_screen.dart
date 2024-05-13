@@ -10,23 +10,25 @@ class Settings extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
     return CupertinoPageScaffold(
-      child: CustomScrollView(
-        slivers: [
-          CupertinoSliverNavigationBar(
-            largeTitle: Text("Settings"),
-          ),
-          SliverFillRemaining(
-              child: SingleChildScrollView(
-            child: Column(
+      child: SizedBox(
+        height: height,
+        child: CustomScrollView(
+          slivers: [
+            CupertinoSliverNavigationBar(
+              largeTitle: Text("Settings"),
+            ),
+            SliverFillRemaining(
+                child: Column(
               children: [
                 UpperListTileSection(),
                 MiddleListTileSection(),
                 BottomListTileSection(),
               ],
-            ),
-          ))
-        ],
+            ))
+          ],
+        ),
       ),
     );
   }
@@ -46,7 +48,7 @@ class CupertinoListTileReusable extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoListTile(
       title: Container(
-          alignment: Alignment.centerLeft, height: 57, child: Text(text)),
+          alignment: Alignment.centerLeft, height: 56, child: Text(text)),
       leading: (isSvg)
           ? SvgPicture.asset(
               imageAddress,

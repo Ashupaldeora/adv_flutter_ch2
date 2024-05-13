@@ -1,3 +1,6 @@
+import 'package:adv_flutter_ch2/screens/cupertino%20segmented%20control/providers/segmented_provider.dart';
+import 'package:adv_flutter_ch2/screens/cupertino%20segmented%20control/view/segmented_screen.dart';
+import 'package:adv_flutter_ch2/screens/cupertino%20tab%20bar/view/cupertino_tab_bar.dart';
 import 'package:adv_flutter_ch2/screens/cupertino_slivers/cupertino_custom_scroll.dart';
 import 'package:adv_flutter_ch2/screens/cupertino_slivers/cupertino_list_section.dart';
 import 'package:adv_flutter_ch2/screens/cupertino_slivers/settings_screen.dart';
@@ -10,6 +13,8 @@ import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/adaptive/adap
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/for_android/material_widgets.dart';
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/for_ios/cupertino_widgets.dart';
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/providers/switchfrom_m-c_provider.dart';
+import 'package:adv_flutter_ch2/screens/slider/providers/light_dark_provider.dart';
+import 'package:adv_flutter_ch2/screens/slider/views/slider_screen.dart';
 import 'package:adv_flutter_ch2/screens/time_picker/android/view/time_picker.dart';
 import 'package:adv_flutter_ch2/screens/time_picker/ios/providers/time_picker_ios_provider.dart';
 import 'package:adv_flutter_ch2/screens/time_picker/ios/view/time_picker_ios.dart';
@@ -81,14 +86,32 @@ class MyApp2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
-      debugShowCheckedModeBanner: false,
-      initialRoute: '/settings',
-      routes: {
-        '/': (context) => CustomScroll(),
-        '/listSection': (p0) => CupertinoListSectionExample(),
-        '/settings': (p0) => Settings(),
-      },
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (context) => SegmentedProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => LightDarkProvider(),
+        )
+      ],
+      builder: (context, child) => CupertinoApp(
+        debugShowCheckedModeBanner: false,
+        theme: CupertinoThemeData(
+            brightness:
+                Provider.of<LightDarkProvider>(context, listen: true).isDark
+                    ? Brightness.dark
+                    : Brightness.light),
+        initialRoute: '/slider',
+        routes: {
+          '/': (context) => CustomScroll(),
+          '/listSection': (p0) => CupertinoListSectionExample(),
+          '/settings': (p0) => Settings(),
+          '/tabBar': (p0) => CupertinoTabBarScreen(),
+          '/segmented': (p0) => CupertinoSegmentedControlScreen(),
+          '/slider': (p0) => SliderScreen(),
+        },
+      ),
     );
   }
 }

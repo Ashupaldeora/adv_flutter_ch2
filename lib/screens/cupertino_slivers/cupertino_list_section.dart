@@ -19,7 +19,9 @@ class CupertinoListSectionExample extends StatelessWidget {
           SizedBox(
             height: 68,
           ),
-          SingleSelectionListSelection(),
+          CupertinoButton(
+              onPressed: () => Navigator.of(context).pushNamed('/settings'),
+              child: SingleSelectionListSelection()),
           MultiSelectionListSection(),
         ],
       ),
