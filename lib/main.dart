@@ -1,3 +1,5 @@
+import 'package:adv_flutter_ch2/screens/bottom_navigation_bar/providers/bottom_navigation_provider.dart';
+import 'package:adv_flutter_ch2/screens/bottom_navigation_bar/view/bottom_navigation_screen.dart';
 import 'package:adv_flutter_ch2/screens/cupertino%20segmented%20control/providers/segmented_provider.dart';
 import 'package:adv_flutter_ch2/screens/cupertino%20segmented%20control/view/segmented_screen.dart';
 import 'package:adv_flutter_ch2/screens/cupertino%20tab%20bar/view/cupertino_tab_bar.dart';
@@ -13,6 +15,7 @@ import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/adaptive/adap
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/for_android/material_widgets.dart';
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/for_ios/cupertino_widgets.dart';
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/providers/switchfrom_m-c_provider.dart';
+import 'package:adv_flutter_ch2/screens/pageview/view/pageview_screen.dart';
 import 'package:adv_flutter_ch2/screens/slider/providers/light_dark_provider.dart';
 import 'package:adv_flutter_ch2/screens/slider/views/slider_screen.dart';
 import 'package:adv_flutter_ch2/screens/time_picker/android/view/time_picker.dart';
@@ -23,7 +26,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp2());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -39,7 +42,10 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (context) => IosTimeProvider(),
         ),
-        ChangeNotifierProvider(create: (context) => SwitchProvider())
+        ChangeNotifierProvider(create: (context) => SwitchProvider()),
+        ChangeNotifierProvider(
+          create: (context) => BottomProvider(),
+        )
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -63,7 +69,7 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.lightGreen,
           ),
         ),
-        initialRoute: '/customScroll',
+        initialRoute: '/bottomNavigation',
         routes: {
           '/datePickerAndroid': (context) => DatePickerAndroid(),
           '/timePickerAndroid': (context) => TimePickerAndroid(),
@@ -75,6 +81,8 @@ class MyApp extends StatelessWidget {
           '/cupertinoWidgets': (context) => CupertinoWidgets(),
           '/adaptive': (context) => AdaptiveMaterialCupertino(),
           '/customScroll': (context) => CustomScroll(),
+          '/pageView': (context) => PageViewScreen(),
+          '/bottomNavigation': (context) => BottomNavigationScreen()
         },
       ),
     );
