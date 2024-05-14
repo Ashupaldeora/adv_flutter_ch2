@@ -283,6 +283,63 @@ iOS-style navigation bar for CupertinoSliverAppBar or CustomScrollView.
  <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/bdeb4b52-f163-4f2d-95fc-e83b7b230cbc" ></video>
 </div>
 
+<h1></h1>
+<h3 align="center"><i>4. CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl</i></h3>
+<h1></h1>
+
+# CupertinoTabBar
+
+* Definition: An iOS-styled bottom navigation bar used for switching between different sections of your app.
+# Features:
+* Displays multiple tabs using BottomNavigationBarItem.
+* Only one tab can be active at a time (default: first tab is active).
+* Integrates well with CupertinoTabScaffold for automatic tab management and navigation.
+* Customization options for colors, icons, and text.
+  
+
+  
+
+<div align="center">
+  
+  
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/5721e1dc-6e8b-462e-9a9b-5a528220b1cd" height=500px hspace=20>
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/8b2399d3-725d-4353-b7af-bc063fe0ed6e" height=500px hspace=20>
+  <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/1f43051d-a5d9-4f71-9b43-e481606ee170">
+</div>
+
+# CupertinoSlider
+
+* Definition: An iOS-styled slider component that allows users to select a value from a continuous range.
+# Features:
+* Visually represents a range with a thumb that users can drag.
+* Supports defining minimum and maximum values.
+* Can be customized with different colors and active thumb appearance.
+* Triggers onChanged callback when the user changes the value.
+  
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/071cfb64-79a6-4627-b33c-6d2bfb8310ae" height=500px hspace=20>
+  <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/a871c2a2-5722-48d2-b5b8-9a45a3b661e3">
+
+
+  
+</div>
+
+ # CupertinoSlidingSegmentedControl
+
+* Definition: An iOS 13 style segmented control that allows users to choose between a set of mutually exclusive options.
+# Features:
+* Displays a horizontal list of widgets representing the options.
+* Only one option can be selected at a time.
+* Supports using any widget as an option element.
+* Enables selection through tapping or dragging the segmented control.
+* Provides callbacks for selection changes.
+  
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/c906b5cb-894e-474d-8744-fcf57cd0034a" height=500px hspace=20>
+   <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/597032f8-20e9-4b90-bb39-1e55c7d3038c">
+</div>
+
+
 
 
 
