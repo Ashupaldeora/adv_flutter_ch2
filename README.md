@@ -340,7 +340,51 @@ iOS-style navigation bar for CupertinoSliverAppBar or CustomScrollView.
 </div>
 
 
+<h1></h1>
+<h3 align="center"><i>4. Page view & Bottom Navigation Bar</i></h3>
+<h1></h1>
 
+# PageView:
+
+* Definition: A widget that allows users to swipe horizontally (or vertically) through a collection of child widgets, essentially like turning pages in a book.
+# Features:
+* Scrollable: Users can navigate by swiping left or right (or up/down depending on configuration).
+* Multiple Pages: Can display multiple child widgets, each representing a different "page" within the app.
+* Customization: You can control scrolling behavior, animations, and the initial page displayed.
+
+<div align="center">
+ 
+  <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/3a22508a-4423-40fd-8057-1927305789b4">
+
+ 
+</div>
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/pageview">-> See The Code <-</a>
+</div>
+
+# BottomNavigationBar:
+
+* Definition: A widget that displays a bar at the bottom of the screen, typically containing icons. Each icon represents a different section or view within the app.
+# Features:
+* Navigation: Tapping an icon on the bar switches the content displayed on the screen, typically linked to a corresponding child widget in a PageView.
+* Selected State: Clearly indicates the currently active section by highlighting the selected icon.
+* Multiple Icons: Can accommodate multiple icons, allowing for quick navigation between different app sections.
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/36dd5244-964b-4836-946b-c4a3ce7abd2e" height=500px hspace=20> 
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/355f7102-4399-4ba6-a67f-8a3cbe78f2c3" height=500px hspace=20>
+ 
+  <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/99a9fd63-098c-425e-9603-54f5c5ccadbd">
+
+ 
+</div>
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/bottom_navigation_bar">-> See The Code <-</a>
+</div>
 
 
 
