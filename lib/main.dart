@@ -1,5 +1,6 @@
 import 'package:adv_flutter_ch2/screens/bottom_navigation_bar/providers/bottom_navigation_provider.dart';
 import 'package:adv_flutter_ch2/screens/bottom_navigation_bar/view/bottom_navigation_screen.dart';
+import 'package:adv_flutter_ch2/screens/cupertino%20action%20sheet/view/cupertino_action_sheet.dart';
 import 'package:adv_flutter_ch2/screens/cupertino%20segmented%20control/providers/segmented_provider.dart';
 import 'package:adv_flutter_ch2/screens/cupertino%20segmented%20control/view/segmented_screen.dart';
 import 'package:adv_flutter_ch2/screens/cupertino%20tab%20bar/view/cupertino_tab_bar.dart';
@@ -26,7 +27,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp2());
 }
 
 class MyApp extends StatelessWidget {
@@ -110,7 +111,7 @@ class MyApp2 extends StatelessWidget {
                 Provider.of<LightDarkProvider>(context, listen: true).isDark
                     ? Brightness.dark
                     : Brightness.light),
-        initialRoute: '/slider',
+        initialRoute: '/actionSheet',
         routes: {
           '/': (context) => CustomScroll(),
           '/listSection': (p0) => CupertinoListSectionExample(),
@@ -118,6 +119,7 @@ class MyApp2 extends StatelessWidget {
           '/tabBar': (p0) => CupertinoTabBarScreen(),
           '/segmented': (p0) => CupertinoSegmentedControlScreen(),
           '/slider': (p0) => SliderScreen(),
+          '/actionSheet': (p0) => ActionSheetOpen(),
         },
       ),
     );
