@@ -16,6 +16,7 @@ import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/adaptive/adap
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/for_android/material_widgets.dart';
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/for_ios/cupertino_widgets.dart';
 import 'package:adv_flutter_ch2/screens/material_cupertino_widgets/providers/switchfrom_m-c_provider.dart';
+import 'package:adv_flutter_ch2/screens/material_slivers/view/sliver_screen.dart';
 import 'package:adv_flutter_ch2/screens/pageview/view/pageview_screen.dart';
 import 'package:adv_flutter_ch2/screens/slider/providers/light_dark_provider.dart';
 import 'package:adv_flutter_ch2/screens/slider/views/slider_screen.dart';
@@ -27,7 +28,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp2());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -70,7 +71,7 @@ class MyApp extends StatelessWidget {
             primarySwatch: Colors.lightGreen,
           ),
         ),
-        initialRoute: '/bottomNavigation',
+        initialRoute: '/materialSlivers',
         routes: {
           '/datePickerAndroid': (context) => DatePickerAndroid(),
           '/timePickerAndroid': (context) => TimePickerAndroid(),
@@ -83,7 +84,8 @@ class MyApp extends StatelessWidget {
           '/adaptive': (context) => AdaptiveMaterialCupertino(),
           '/customScroll': (context) => CustomScroll(),
           '/pageView': (context) => PageViewScreen(),
-          '/bottomNavigation': (context) => BottomNavigationScreen()
+          '/bottomNavigation': (context) => BottomNavigationScreen(),
+          '/materialSlivers': (context) => SliverScreen()
         },
       ),
     );
