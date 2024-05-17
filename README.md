@@ -388,6 +388,55 @@ iOS-style navigation bar for CupertinoSliverAppBar or CustomScrollView.
 
 
 
+<h1></h1>
+<h3 align="center"><i>5. CupertinoActionSheet & CupertinoContextMenu</i></h3>
+<h1></h1>
+
+# CupertinoActionSheet
+
+* Definition: An action sheet is a modal dialog that presents the user with a set of choices related to the current context. It's a common element in iOS apps.
+# Features:
+* Multiple choices: Presents two or more options for the user to select.
+* Title and message (optional): Can include a title to clarify the context and a message to provide additional details.
+* Destructive actions (optional): Can include actions with a destructive appearance (red text) to indicate they might cause data loss.
+* Cancellation: Users can dismiss the action sheet by tapping outside the sheet or on a cancel button (if provided).
+
+<div align="center">
+  <img src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/39310313-bdb2-43a4-87d4-2631dc66267d" height=500px hspace=20>
+   <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/a669e58e-82fb-47cf-b8d7-afed3c84e640">
+</div>
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/adv_flutter_ch2/tree/master/lib/screens/cupertino%20action%20sheet/view">-> See The Code <-</a>
+</div>
+
+# CupertinoContextMenu
+
+* Definition: A context menu is a popup menu that appears when the user long-presses on a widget. It provides a set of actions specific to that widget.
+# Features:
+* Context-specific actions: Offers actions relevant to the long-pressed widget.
+* Non-modal: Doesn't block the rest of the app's interaction; users can tap outside the menu or interact with other parts of the screen.
+* Dismissal: Closes by tapping outside the menu, swiping down, or calling Navigator.pop(context).
+* Customization: You can control the displayed actions and their behavior.
+
+<div align="center">
+ 
+   <video src="https://github.com/Ashupaldeora/adv_flutter_ch2/assets/143180848/be60099e-9283-4835-b7aa-2c66966c9391">
+</div>
+
+###
+<div align="center">
+<a href="https://github.com/Ashupaldeora/advance_flutter_ch1/tree/master/lib/screens/gallery">-> See The Code <-</a>
+</div>
+
+
+
+
+
+
+
+
 
 
 
